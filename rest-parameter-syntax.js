@@ -16,5 +16,5 @@ const sumRest = (a, b, c, ...rest) => {
     return sum;
 }
 
-let sum3 = sumRest(1, 2 ,3, 4, 5, 6);
+let sum3 = sumRest(1, 2 ,3, 4, 5, 6, 7, 8, 9, 10, ' ' ,"fart");
 console.log("Sum3:", sum3)
