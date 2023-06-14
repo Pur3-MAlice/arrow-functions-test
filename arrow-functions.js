@@ -16,13 +16,13 @@ const addTwoNumbers = (a, b) => {
 }
 console.log(addTwoNumbers(2, 5));
 
-
-
 // Single Line Arrow Function With Parameters
 
 const addTwoNumbers2 = (a, b) => a + b;
 console.log(addTwoNumbers2(22, 7));
 
 // Implicit Returns
+const hello = message => console.log(message);
+hello("Hello!");
 
 // Returning Multiple Lines
