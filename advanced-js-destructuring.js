@@ -18,3 +18,10 @@ let jobs = {
 let {mike, jill, alicia} = jobs;
 console.log(mike, jill, alicia);
 
+
+
+let fruits = ['apple', 'orange', 'peach', 'pineapple', 'mango', 'cherry'];
+let [favourite, secFav, ...others] = fruits;
+console.log(favourite);
+console.log(secFav);
+console.log(others);
