@@ -25,4 +25,6 @@ console.log(addTwoNumbers2(22, 7));
 const hello = message => console.log(message);
 hello("Hello!");
 
+const sayHello = () => console.log("Say Hello");
+
 // Returning Multiple Lines
