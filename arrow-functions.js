@@ -3,28 +3,27 @@
  * command node arrow-functions.js in the terminal
  */
 
-// Vanilla JavaScript Function
+// // Vanilla JavaScript Function
 
-// function addTwoNumbers(a, b) {
+// // function addTwoNumbers(a, b) {
+// //     return a + b;
+// // }
+// // console.log(addTwoNumbers(2, 5))
+
+// // Arrow Function With Parameters
+// const addTwoNumbers = (a, b) => {
 //     return a + b;
 // }
-// console.log(addTwoNumbers(2, 5))
+// console.log(addTwoNumbers(2, 5));
 
-// Arrow Function With Parameters
-const addTwoNumbers = (a, b) => {
-    return a + b;
-}
-console.log(addTwoNumbers(2, 5));
+// // Single Line Arrow Function With Parameters
+// const addTwoNumbers2 = (a, b) => a + b;
+// console.log(addTwoNumbers2(22, 7));
 
-// Single Line Arrow Function With Parameters
+// // Implicit Returns
+// const hello = message => console.log(message);
+// hello("Hello!");
 
-const addTwoNumbers2 = (a, b) => a + b;
-console.log(addTwoNumbers2(22, 7));
+// const sayHello = () => console.log("Say Hello");
 
-// Implicit Returns
-const hello = message => console.log(message);
-hello("Hello!");
-
-const sayHello = () => console.log("Say Hello");
-
-// Returning Multiple Lines
+// // Returning Multiple Lines
