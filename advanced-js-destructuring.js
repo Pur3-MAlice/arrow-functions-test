@@ -13,6 +13,8 @@ let jobs = {
     mike: "designer",
     jill: "developer",
     alicia: "accountant",
+    paddy: "specialist",
+
 };
 
 let {mike, jill, alicia} = jobs;
