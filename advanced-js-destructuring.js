@@ -14,7 +14,7 @@ let jobs = {
     jill: "developer",
     alicia: "accountant",
     paddy: "specialist",
-
+    therese: "QA analyst"
 };
 
 let {mike, jill, alicia} = jobs;
